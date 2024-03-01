@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">test.api.catering.bluecodegames.com</domain>
+        <domain includeSubdomains="true">api.catering.bluecodegames.com</domain> <!-- Incluez également le domaine sans le protocole (http://) -->
+    </domain-config>
+</network-security-config>
